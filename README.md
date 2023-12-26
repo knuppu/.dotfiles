@@ -4,14 +4,18 @@ These are .dotfiles for Lucas Knupp personal.
 
 ```bash
 > cvt 1832 1010 60
-
+```
+```bash
 # 1832x1010 59.93 Hz (CVT) hsync: 62.81 kHz; pclk: 153.25 MHz
 Modeline "1832x1010_60.00"  153.25  1832 1944 2136 2440  1010 1013 1023 1048 -hsync +vsync
-
+```
+```bash
 > xrandr --newmode "1832x1010_60.00" 153.25 1832 1994 2136 2440 1010 1013 1023 1048 -hsync +vsync
-
+```
+```bash
 > xrandr --addmode HDMI-1 1832x1010_60.00
-
+```
+```bash
 > arandr
 
 # 'then set the new resolution'
