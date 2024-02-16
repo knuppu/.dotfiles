@@ -189,7 +189,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         font pango: DejaVu Sans Mono 12
-        separator_symbol " | "
+        separator_symbol "| "
 }
 
 #exec_always nitrogen --set-auto --random
