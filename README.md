@@ -23,3 +23,10 @@ arandr
 
 And then set the new resolution
 
+## adding parallel downloads to pacman
+
+```bash
+sudo vim /etc/pacman.conf
+```
+
+There will be to options in `Misc options section`: `Color` and `ParallelDownloads`. Just unmark those and done.
