@@ -85,6 +85,8 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+workspace_auto_back_and_forth
+
 # split in horizontal orientation
 bindsym $mod+h split h
 
@@ -194,7 +196,13 @@ bar {
 exec_always nitrogen --restore
 exec_always picom
 
+bindsym Print exec gnome-screenshot -i
+bindsym $mod+Shift+s exec gnome-screenshot -i
+
 bindsym $mod+l exec i3lock
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
+bindsym $mod+m bar mode toggle
 
+for_window [class="Nitrogen"] floating enable sticky enable border normal
+for_window [urgent=latest] focus
