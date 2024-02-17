@@ -86,8 +86,6 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-workspace_auto_back_and_forth
-
 # split in horizontal orientation
 bindsym $mod+h split h
 
@@ -140,16 +138,16 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1; workspace number $w1
-bindsym $mod+Shift+2 move container to workspace number $ws2; workspace number $w2
-bindsym $mod+Shift+3 move container to workspace number $ws3; workspace number $w3
-bindsym $mod+Shift+4 move container to workspace number $ws4; workspace number $w4
-bindsym $mod+Shift+5 move container to workspace number $ws5; workspace number $w5
-bindsym $mod+Shift+6 move container to workspace number $ws6; workspace number $w6
-bindsym $mod+Shift+7 move container to workspace number $ws7; workspace number $w7
-bindsym $mod+Shift+8 move container to workspace number $ws8; workspace number $w8
-bindsym $mod+Shift+9 move container to workspace number $ws9; workspace number $w9
-bindsym $mod+Shift+0 move container to workspace number $ws10; workspace number $w10
+bindsym $mod+Shift+1 move container to workspace number $ws1; workspace $w1
+bindsym $mod+Shift+2 move container to workspace number $ws2; workspace $w2
+bindsym $mod+Shift+3 move container to workspace number $ws3; workspace $w3
+bindsym $mod+Shift+4 move container to workspace number $ws4; workspace $w4
+bindsym $mod+Shift+5 move container to workspace number $ws5; workspace $w5
+bindsym $mod+Shift+6 move container to workspace number $ws6; workspace $w6
+bindsym $mod+Shift+7 move container to workspace number $ws7; workspace $w7
+bindsym $mod+Shift+8 move container to workspace number $ws8; workspace $w8
+bindsym $mod+Shift+9 move container to workspace number $ws9; workspace $w9
+bindsym $mod+Shift+0 move container to workspace number $ws10; workspace $w10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -190,15 +188,12 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         font pango: DejaVu Sans Mono 12
-        separator_symbol "| "
+        separator_symbol " | "
 }
 
 #exec_always nitrogen --set-auto --random
 exec_always nitrogen --restore
 exec_always picom
-
-bindsym Print exec gnome-screenshot -i
-bindsym $mod+Shift+s exec gnome-screenshot -i
 
 #bindsym $mod+l exec i3lock
 bindsym $mod+l exec i3lock-no-notifications
@@ -207,4 +202,5 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+m bar mode toggle
 
 for_window [class="Nitrogen"] floating enable sticky enable border normal
-for_window [urgent=latest] focus
+for_window [urgent=lastest] focus
+
