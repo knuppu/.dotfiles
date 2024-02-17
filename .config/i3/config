@@ -196,7 +196,7 @@ exec_always nitrogen --restore
 exec_always picom
 
 #bindsym $mod+l exec i3lock
-bindsym $mod+l exec i3lock-no-notifications
+bindsym $mod+l exec ~/.local/bin/i3lock-no-notifications
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym $mod+m bar mode toggle
