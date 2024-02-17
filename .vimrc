@@ -23,7 +23,6 @@ set laststatus=2
 set t_Co=256
 
 set scrolloff=8
-set signcolumn="yes"
 
 "set background=dark
 "set ruler
