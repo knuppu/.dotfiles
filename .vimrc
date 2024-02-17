@@ -12,9 +12,6 @@ set relativenumber
 set incsearch
 set hlsearch
 
-set cursorline
-set cursorcolumn
-
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -28,6 +25,8 @@ set t_Co=256
 set scrolloff=8
 set signcolumn="yes"
 
+"set background=dark
+"set ruler
 set colorcolumn=80
 
 let mapleader=" "
