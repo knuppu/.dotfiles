@@ -192,8 +192,7 @@ bar {
 }
 
 #exec_always nitrogen --set-auto --random
-exec_always nitrogen --restore
-exec_always picom
+exec_always nitrogen --restore; sleep 1; picom
 
 #bindsym $mod+l exec i3lock
 bindsym $mod+l exec ~/.local/bin/i3lock-no-notifications
