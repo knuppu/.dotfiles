@@ -31,6 +31,6 @@ sudo vim /etc/pacman.conf
 
 There will be to options in `Misc options section`: `Color` and `ParallelDownloads`. Just unmark those and done.
 
-## `.vimrc` and `.config/nvim.init.vim`
+## `.vimrc` and `.config/nvim/init.vim`
 
 They should be the same filw, let's keep it simple.
