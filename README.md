@@ -33,4 +33,4 @@ There will be to options in `Misc options section`: `Color` and `ParallelDownloa
 
 ## `.vimrc` and `.config/nvim/init.vim`
 
-They should be the same filw, let's keep it simple.
+They should be the same file, let's keep it simple.
