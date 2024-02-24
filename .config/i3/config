@@ -138,16 +138,16 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1; workspace $w1
-bindsym $mod+Shift+2 move container to workspace number $ws2; workspace $w2
-bindsym $mod+Shift+3 move container to workspace number $ws3; workspace $w3
-bindsym $mod+Shift+4 move container to workspace number $ws4; workspace $w4
-bindsym $mod+Shift+5 move container to workspace number $ws5; workspace $w5
-bindsym $mod+Shift+6 move container to workspace number $ws6; workspace $w6
-bindsym $mod+Shift+7 move container to workspace number $ws7; workspace $w7
-bindsym $mod+Shift+8 move container to workspace number $ws8; workspace $w8
-bindsym $mod+Shift+9 move container to workspace number $ws9; workspace $w9
-bindsym $mod+Shift+0 move container to workspace number $ws10; workspace $w10
+bindsym $mod+Shift+1 move container to workspace number $ws1; workspace $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4; workspace $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5; workspace $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6; workspace $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7; workspace $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9; workspace $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10; workspace $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -193,6 +193,7 @@ bar {
 
 #exec_always nitrogen --set-auto --random
 exec_always nitrogen --restore; sleep 1; picom
+exec --no-startup-id ~/.local/bin/tv
 
 #bindsym $mod+l exec i3lock
 bindsym $mod+l exec ~/.local/bin/i3lock-no-notifications
@@ -203,3 +204,4 @@ bindsym $mod+m bar mode toggle
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [urgent=lastest] focus
 
+bindsym $mod+Shift+s exec gnome-screenshot -a
