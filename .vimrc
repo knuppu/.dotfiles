@@ -34,3 +34,4 @@ nnoremap <leader>wq :wq<cr>
 nnoremap <leader>q :qa!<cr>
 vnoremap <leader>y "+yy
 nnoremap <leader>p "+p
+

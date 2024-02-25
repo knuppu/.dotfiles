@@ -19,7 +19,7 @@ fi
 
 source /usr/share/doc/pkgfile/command-not-found.bash
 
-export EDITOR=vim
+export EDITOR=nvim
 export LESS='-RFX --use-color -Dd+r$Du+b$'
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
 export MANROFFOPT="-P -c"
