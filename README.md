@@ -1,5 +1,9 @@
 These are .dotfiles for Lucas Knupp personal.
 
+## how to install pkgfile for auto complete on bash
+
+just follow (this)[https://wiki.archlinux.org/title/pkgfile]
+
 ## custom arandr resolution settings
 
 ```bash
