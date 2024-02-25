@@ -42,6 +42,19 @@ pacman -Syu pkgfile
 pkgfile -u
 ```
 
+## dark theme support
+```bash
+sudo pacman -Syu lxappearance ark-gtk-theme
+```
+
+## better terminal
+
+```bash
+pacman -Syu gnome-terminal
+```
+
+then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
+
 ## `.vimrc` and `.config/nvim/init.vim`
 
 They should be the same file, let's keep it simple.
