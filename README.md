@@ -38,3 +38,18 @@ There will be to options in `Misc options section`: `Color` and `ParallelDownloa
 ## `.vimrc` and `.config/nvim/init.vim`
 
 They should be the same file, let's keep it simple.
+
+## build yay
+
+```bash
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -sirc
+```
+
+## solve japanese fonts problem
+
+```bash
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+yay -S ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
+```
