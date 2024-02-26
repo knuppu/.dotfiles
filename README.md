@@ -44,7 +44,7 @@ pkgfile -u
 
 ## dark theme support
 ```bash
-sudo pacman -Syu lxappearance ark-gtk-theme
+sudo pacman -Syu lxappearance arc-gtk-theme
 ```
 
 ## better terminal
