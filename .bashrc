@@ -23,6 +23,7 @@ export EDITOR=nvim
 export LESS='-RFX --use-color -Dd+r$Du+b$'
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
 export MANROFFOPT="-P -c"
+export TERMINAL=/usr/bin/gnome-terminal
 
 ## colors for terminal ##
 #Black       0;30     Dark Gray     1;30
