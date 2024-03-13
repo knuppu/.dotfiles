@@ -14,9 +14,9 @@ alias pac='sudo pacman -Syu'
 alias pacr='sudo pacman -Rns'
 alias pacq='pacman -Qdtq'
 alias pacrr='sudo pacman -Qdtq | sudo pacman -Rns -'
-alias yayr='sudo pacman -Rns'
+alias yayr='yay -Rns'
 alias yayq='yay -Qdtq'
-alias yayrr='sudo pacman -Qdtq | sudo pacman -Rns -'
+alias yayrr='yay -Qdtq | yay -Rns -'
 
 alias pactar='tar -xvf'
 
