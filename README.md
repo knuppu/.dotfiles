@@ -72,6 +72,6 @@ makepkg -sirc
 ## solve japanese fonts problem
 
 ```bash
-sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
-yay -S ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
+sudo pacman -Syu noto-fonts-cjk noto-fonts-emoji noto-fonts
+yay -Syu ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
 ```
