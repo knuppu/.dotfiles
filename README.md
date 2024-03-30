@@ -65,7 +65,11 @@ They should be the same file, let's keep it simple.
 
 ```bash
 git clone https://aur.archlinux.org/yay.git
+```
+```bash
 cd yay
+```
+```bash
 makepkg -sirc
 ```
 
@@ -73,5 +77,7 @@ makepkg -sirc
 
 ```bash
 sudo pacman -Syu noto-fonts-cjk noto-fonts-emoji noto-fonts
+```
+```bash
 yay -Syu ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
 ```
