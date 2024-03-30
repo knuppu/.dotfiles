@@ -38,8 +38,10 @@ There will be to options in `Misc options section`: `Color` and `ParallelDownloa
 ## pkgfile auto complete bash
 
 ```bash
-pacman -Syu pkgfile
-pkgfile -u
+sudo pacman -Syu pkgfile
+```
+```bash
+sudo pkgfile -u
 ```
 
 ## dark theme support
@@ -50,7 +52,7 @@ sudo pacman -Syu lxappearance arc-gtk-theme
 ## better terminal
 
 ```bash
-pacman -Syu gnome-terminal
+sudo pacman -Syu gnome-terminal
 ```
 
 then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
