@@ -1,6 +1,6 @@
 These are .dotfiles for Lucas Knupp personal.
 
-### Useful things to set up arch
+# Useful things to set up arch
 ## adding parallel downloads to pacman
 ```bash
 sudo vim /etc/pacman.conf
@@ -40,7 +40,7 @@ yay -Syu ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolat
 ```bash
 sudo pacman -Syu lxappearance arc-gtk-theme
 ```
-### Maybe useful things?
+# Maybe useful things?
 ## custom arandr resolution settings
 
 ```bash
