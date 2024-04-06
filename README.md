@@ -1,6 +1,6 @@
 These are .dotfiles for Lucas Knupp personal.
 
-### Usefful things to set up arch
+### Useful things to set up arch
 ## adding parallel downloads to pacman
 ```bash
 sudo vim /etc/pacman.conf
@@ -16,7 +16,7 @@ sudo pkgfile -u
 ```
 ## install a bunch of things
 ```bash
-sudo pacman -Syu qbittorrent neofetch sl neovim volumeicon j4-dmenu-desktop picom gnome-screenshot gnome-terminal man ranger pavucontrol arandr autorandr nitrogen steam
+sudo pacman -Syu vlc qbittorrent neofetch sl neovim volumeicon j4-dmenu-desktop picom gnome-screenshot gnome-terminal man ranger pavucontrol arandr autorandr nitrogen steam
 ```
 then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
 ## build yay
