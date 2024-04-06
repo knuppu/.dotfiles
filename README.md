@@ -69,14 +69,16 @@ sudo pacman -Syu unzip p7zip
 sudo pacman -Syu steam
 ```
 ```bash
-yay -Syu heroic-games
+yay -Syu heroic-games-launcher-bin
 ```
 
 ### maybe isntall these if things don't work
 
 ```bash
-sudo pacman -Syu wine wine-gecko wine-mono
+sudo pacman -Syu wine
 ```
+
+After this, usually the wine appplication tells which extra package related to wine it wants, just install with pacman instead of asking wine to download it.
 
 # Maybe useful things?
 
