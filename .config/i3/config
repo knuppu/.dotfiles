@@ -194,8 +194,8 @@ bar {
 }
 
 #exec_always nitrogen --set-auto --random
-exec_always nitrogen --restore; sleep 1; picom
-exec --no-startup-id ~/.local/bin/tv
+exec_always nitrogen --restore
+exec --no-startup-id ~/.screenlayout/tv.sh;nitrogen --restore
 
 #bindsym $mod+l exec i3lock
 bindsym $mod+l exec ~/.local/bin/i3lock-no-notifications

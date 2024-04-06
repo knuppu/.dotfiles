@@ -35,6 +35,5 @@ export TERMINAL=/usr/bin/gnome-terminal
 #Brown       0;33     Yellow        1;33
 #Light Gray  0;37     White         1;37
 
-PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.screenlayout:$HOME/.local/bin:$PATH"
 PS1='\[\e[91m\][\[\e[93;1m\]\u\[\e[38;5;83m\]@\[\e[38;5;33m\]\H\[\e[0m\] \[\e[38;5;93;1m\]\w\[\e[0;91m\]]\[\e[0m\]\$ '
-

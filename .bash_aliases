@@ -19,4 +19,3 @@ alias yayq='yay -Qdtq'
 alias yayrr='yay -Qdtq | yay -Rns -'
 
 alias pactar='tar -xvf'
-

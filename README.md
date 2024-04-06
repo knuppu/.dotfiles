@@ -1,11 +1,24 @@
 These are .dotfiles for Lucas Knupp personal.
 
 # Useful things to set up arch
+
 ## adding parallel downloads to pacman
+
 ```bash
 sudo vim /etc/pacman.conf
 ```
+
 There will be to options in `Misc options section`: `Color` and `ParallelDownloads`. Just unmark those and done.
+
+
+## install a bunch of things
+```bash
+sudo pacman -Syu arandr autorandr gnome-terminal gnome-screenshot blueman
+```
+then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
+```bash
+sudo pacman -Syu neovim git ranger pavucontrol nitrogen man
+```
 
 ## how to install pkgfile for auto complete on bash
 ```bash
@@ -14,11 +27,15 @@ sudo pacman -Syu pkgfile
 ```bash
 sudo pkgfile -u
 ```
-## install a bunch of things
+
+## continue installing a bunch of things
 ```bash
-sudo pacman -Syu wine wine-gecko wine-mono neovim git blueman vlc qbittorrent neofetch sl neovim volumeicon j4-dmenu-desktop picom gnome-screenshot gnome-terminal man ranger pavucontrol arandr autorandr nitrogen steam
+sudo pacman -Syu volumeicon j4-dmenu-desktop 
 ```
-then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
+```bash
+sudo pacman -Syu qbittorrent vlc
+```
+
 ## build yay
 ```bash
 git clone https://aur.archlinux.org/yay.git
@@ -36,11 +53,33 @@ sudo pacman -Syu noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation
 ```bash
 yay -Syu ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
 ```
+
 ## dark theme support
 ```bash
 sudo pacman -Syu lxappearance arc-gtk-theme
 ```
+
+## more stuff
+```bash
+sudo pacman -Syu unzip p7zip
+```
+
+## Gaming stuff
+```bash
+sudo pacman -Syu steam
+```
+```bash
+yay -Syu heroic-games
+```
+
+### maybe isntall these if things don't work
+
+```bash
+sudo pacman -Syu wine wine-gecko wine-mono
+```
+
 # Maybe useful things?
+
 ## custom arandr resolution settings
 
 ```bash

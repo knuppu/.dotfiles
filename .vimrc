@@ -4,7 +4,7 @@ syntax on
 set nocompatible
 
 set mouse=a
-set clipboard=unnamedplus,unnamed
+set clipboard+=unnamedplus,unnamed
 
 set number
 set relativenumber
