@@ -1,9 +1,5 @@
 These are .dotfiles for Lucas Knupp personal.
 
-## how to install pkgfile for auto complete on bash
-
-just follow [this](https://wiki.archlinux.org/title/pkgfile)
-
 ## custom arandr resolution settings
 
 ```bash
@@ -35,7 +31,9 @@ sudo vim /etc/pacman.conf
 
 There will be to options in `Misc options section`: `Color` and `ParallelDownloads`. Just unmark those and done.
 
-## pkgfile auto complete bash
+## how to install pkgfile for auto complete on bash
+
+just follow [this](https://wiki.archlinux.org/title/pkgfile)
 
 ```bash
 sudo pacman -Syu pkgfile
