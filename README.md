@@ -78,13 +78,18 @@ sudo pacman -Syu steam
 yay -Syu heroic-games-launcher-bin
 ```
 
-### maybe isntall these if things don't work
+- maybe isntall these if things don't work
 
 ```bash
 sudo pacman -Syu wine
 ```
 
 After this, usually the wine appplication tells which extra package related to wine it wants, just install with pacman instead of asking wine to download it.
+
+## as a backup
+```bash
+yay -Syu microsoft-edge-stable-bin google-chrome
+```
 
 # Maybe useful things?
 
