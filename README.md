@@ -77,9 +77,6 @@ sudo pacman -Syu steam
 ```bash
 yay -Syu heroic-games-launcher-bin
 ```
-
-- maybe isntall these if things don't work
-
 ```bash
 sudo pacman -Syu wine
 ```
