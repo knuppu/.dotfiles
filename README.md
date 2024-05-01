@@ -46,6 +46,12 @@ cd yay
 ```bash
 makepkg -sirc
 ```
+```bash
+cd ..
+```
+```bash
+rm -rf yay
+```
 ## solve japanese fonts problem
 ```bash
 sudo pacman -Syu noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation
