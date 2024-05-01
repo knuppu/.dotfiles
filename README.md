@@ -69,6 +69,17 @@ sudo pacman -Syu lxappearance arc-gtk-theme
 ```bash
 sudo pacman -Syu unzip p7zip
 ```
+## pdf time
+```bash
+yay -Syu sumatrapdf
+```
+```bash
+vim ~/.config/mimeapps.list
+```
+Then add to the default apps section:
+```bash
+image/pdf=sumatrapdf.desktop
+```
 
 ## Gaming stuff
 ```bash
