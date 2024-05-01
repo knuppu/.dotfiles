@@ -17,7 +17,7 @@ sudo pacman -Syu arandr autorandr gnome-terminal gnome-screenshot blueman
 ```
 then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
 ```bash
-sudo pacman -Syu neovim git ranger pavucontrol nitrogen man
+sudo pacman -Syu neovim git ranger pavucontrol nitrogen man xclip
 ```
 
 ## how to install pkgfile for auto complete on bash
