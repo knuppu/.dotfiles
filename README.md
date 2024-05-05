@@ -13,7 +13,7 @@ There will be to options in `Misc options section`: `Color` and `ParallelDownloa
 
 ## install a bunch of things
 ```bash
-sudo pacman -Syu arandr autorandr gnome-terminal gnome-screenshot blueman
+sudo pacman -Syu arandr autorandr gnome-terminal gnome-screenshot blueman fastfetch
 ```
 then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
 ```bash
