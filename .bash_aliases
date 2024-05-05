@@ -1,6 +1,7 @@
 alias vim='nvim'
 alias vimrc='nvim ~/.vimrc'
 #alias vimrc='nvim ~/.config/nvim/init.vim'
+alias neofetch='fastfetch'
 
 alias bashrc='nvim ~/.bashrc && source ~/.bashrc'
 alias bashalias='nvim ~/.bash_aliases && source ~/.bash_aliases'
