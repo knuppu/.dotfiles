@@ -13,9 +13,20 @@ There will be to options in `Misc options section`: `Color` and `ParallelDownloa
 
 ## install a bunch of things
 ```bash
-sudo pacman -Syu arandr autorandr gnome-terminal gnome-screenshot blueman fastfetch
+sudo pacman -Syu gnome-terminal
+```
+```bash
+sudo pacman -Syu arandr autorandr gnome-screenshot blueman fastfetch
 ```
 then change the `.bashrc` file to inclue: `export TERMINAL=/usr/bin/gnome-terminal`
+
+then enable bluetooth
+```bash
+systemctl enable bluetooth.service
+```
+then activate `blueman-manager` and connect devices
+
+some more things
 ```bash
 sudo pacman -Syu neovim git tig ranger pavucontrol nitrogen man xclip
 ```
